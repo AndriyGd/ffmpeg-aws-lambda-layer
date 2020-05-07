@@ -18,6 +18,7 @@ Resources:
         - ruby2.5
         - java8
         - go1.x
+        - dotnetcore3.1
       LicenseInfo: GPL-2.0-or-later
       RetentionPolicy: Retain
 
@@ -28,10 +29,10 @@ Outputs:
 
 Metadata:
   AWS::ServerlessRepo::Application:
-    Name: ffmpeg-lambda-layer
+    Name: ffmpeg-converting-lambda-layer
     Description: >
       Static build of FFmpeg/FFprobe for Amazon Linux 2,
-      packaged as a Lambda layer. Bundles FFmpeg 4.1.3
+      packaged as a Lambda layer. Bundles FFmpeg 4.2.2
     Author: Gojko Adzic
     SpdxLicenseId: GPL-2.0-or-later
     LicenseUrl: LICENSE.txt
