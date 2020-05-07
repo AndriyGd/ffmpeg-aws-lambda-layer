@@ -1,4 +1,4 @@
-STACK_NAME ?= ffmpeg-convert-lambda-layer
+STACK_NAME ?= ffmpeg-converting-lambda-layer
 
 clean: 
 	rm -rf build
